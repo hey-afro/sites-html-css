@@ -13,9 +13,12 @@ header{
     padding: 70px;
 }
 main{
+    background-color: aquamarine;
     height: 98vh;
 }
 section{
+    padding: 40px;
+    background-color: rgb(0, 95, 63);
     margin: auto;
     max-width: 800px;
     min-height: 600px;

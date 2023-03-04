@@ -4,22 +4,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 98vh;
+    background-color: black;
 }
 header{
-    color: white;
-    background-color: rgb(0, 70, 47);
-    text-align: center;
-    padding: 70px;
+    padding: 22px;
+    background-color: white;
+}
+header a {
+    color: black;
+    padding: 5px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+    color: rgb(255, 145, 0);
+    background-color: rgba(116, 116, 116, 0.033);
 }
 main{
-    background-color: aquamarine;
-    height: 98vh;
-}
-section{
-    padding: 40px;
-    background-color: rgb(0, 95, 63);
-    margin: auto;
-    max-width: 800px;
-    min-height: 600px;
+    height: 400px;
+    text-align: center;
+    color:white ;
+    background: url(../imagens/fubdo.jpg);
+    background-size: contain;
 }

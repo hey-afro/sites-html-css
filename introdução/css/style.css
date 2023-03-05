@@ -21,15 +21,16 @@ header{
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.221);
 }
 header a {
+    font-size: large;
     color: black;
     padding: 5px;
     padding-left: 15px;
     text-decoration: none;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.233);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.098);
 }
 header a:hover{
     text-decoration: underline;
-    color: rgb(129, 90, 0);
+    color: #8F5C38;
     background-color: rgba(116, 116, 116, 0.033);
 }
 main{

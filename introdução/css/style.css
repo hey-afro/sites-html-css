@@ -37,8 +37,7 @@ header a:hover{
 main{
     padding: 40px;
     padding-top: 30px;
-    position: relative;
-    text-align: center;
+    margin: auto;
     background-image: linear-gradient(to bottom,#005291d4 20%, black);
 }
 div{
@@ -90,7 +89,6 @@ footer{
     text-align: center;
     padding: 20px;
     color: white;
-    background-color: rgb(0, 0, 0);
 }
 footer h3{
     font-size: 22px;

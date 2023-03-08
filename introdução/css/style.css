@@ -38,7 +38,7 @@ main{
     padding: 40px;
     padding-top: 30px;
     margin: auto;
-    background-image: linear-gradient(to bottom,#003b68d4 , black);
+    background-image: linear-gradient(to bottom,#007bd8d4, rgb(0, 22, 144), black 95%);
 }
 div{
     margin: auto;

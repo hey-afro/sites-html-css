@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Kalam:wght@300;400;700&family=Merienda:wght@300;400;500;600;700;800;900&family=Monda:wght@400;700&family=Mukta:wght@200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ultra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Kalam:wght@300;400;700&family=Merienda:wght@300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ultra&display=swap');
+
+
+*root{
+
+    --azul-escuro: #0A748A ;
+    --azul-claro-vivo: #3DDFFF ;
+    --azul-claro-medio: #1FB9D6 ; 
+    --marron: #8A4000 ;
+    --laranja: #D6731E ;
+
+    --fonte-texto:'Bebas Neue', arial;
+    --fonte-forte:'Dancing Script', arial;
+
+}
+body, html{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 10px;
+    background-color: #0A748A;
+}
+a{ 
+    padding: 12px;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+main{
+    position: relative;
+    height: 1180px;
+    background-image: linear-gradient(to bottom, #1FB9D6, #0A748A); 
+    text-align: center;
+    margin: auto;
+}
+main div h1{
+    margin: 0%;
+    padding: 30px;
+}
+main div img{
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 240px;
+}
+main div p{
+    font-size: large;
+    margin: auto;
+    max-width: 1000px;
+}
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

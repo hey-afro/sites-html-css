@@ -23,7 +23,10 @@ h1{
 }
 main{
     position: relative;
-    height: 84vh;
+    height: 100%;
+}
+main p{
+    text-align: center;
 }
 a{  
     color: black;
